@@ -1,18 +1,58 @@
-Analisis dan Pertanyaan 
-1. Mapel mana yang memiliki rata-rata nilai tertinggi? 
-Matematika
-2. Mapel mana yang memiliki nilai terendah? 
-Produktif 
-3. Bagaimana visualisasi membantu dalam memahami data? 
-Visualisasi membantu memudahkan untuk menemukan data/ nilai tertinggi dan terendah dengan mudah
-Refleksi Siswa
-1. Apa hal baru yang kamu pelajari dari kegiatan analisis dan visualisasi data?
-   Mempelajari memahami data analisis menggunakan visualisasi
-2. Kesulitan apa yang kamu alami dalam membuat grafik? 
-   kesalahan code/ eror di dalam visual studio code
-3. Menurtu kamu AI apa membantu dalam analysis sebua data?
-   iya, AI membantu dalam analisis sebuah data
+# 📊 Analisis Nilai Siswa per Mata Pelajaran
 
-   Berikut hasil dari analisis data melalui visualisasi
-<img width="630" height="470" alt="output1" src="https://github.com/user-attachments/assets/c8c2b7e9-d97e-420b-968c-32e24e097749" />
-<img width="630" height="470" alt="output" src="https://github.com/user-attachments/assets/6364a070-df34-481b-aa8e-f9b5abae232a" />
+Proyek ini dibuat menggunakan **Python**, **pandas**, **matplotlib**, dan **seaborn** untuk menganalisis dan memvisualisasikan data nilai siswa dari file `nilai_siswa.csv`.
+
+## 🧩 Deskripsi Program
+Program ini membaca data nilai siswa dari file CSV dan melakukan beberapa analisis statistik, seperti:
+- Menampilkan informasi umum data (`info()` dan `describe()`).
+- Menghitung **rata-rata**, **median**, dan **modus** dari seluruh nilai.
+- Menampilkan data nilai khusus untuk mata pelajaran tertentu (contoh: **Matematika**).
+- Mengelompokkan data berdasarkan mata pelajaran dan menghitung nilai **maksimum** serta **minimum**.
+- Membuat dua jenis visualisasi untuk melihat sebaran dan perbandingan nilai antar mata pelajaran.
+
+## ⚙️ Library yang Digunakan
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+```
+
+## 📁 Struktur File
+```
+📂 Proyek_Nilai_Siswa
+│
+├── nilai_siswa.csv        # Dataset nilai siswa
+├── output.png              # Grafik Rata-Rata Nilai per Mapel
+├── output1.png             # Grafik Sebaran Nilai per Mata Pelajaran
+└── analisis_nilai.py       # Script utama program
+```
+
+## 📈 Hasil Visualisasi
+
+### 1️⃣ Rata-Rata Nilai per Mapel
+Grafik batang berikut menunjukkan rata-rata nilai untuk setiap mata pelajaran.  
+Dapat dilihat bahwa **Matematika** memiliki nilai rata-rata tertinggi.
+
+![Rata-Rata Nilai per Mapel](output.png)
+
+### 2️⃣ Sebaran Nilai per Mata Pelajaran
+Boxplot di bawah ini memperlihatkan sebaran nilai (rentang, median, dan outlier) untuk setiap mata pelajaran.  
+Dari grafik terlihat bahwa **Matematika dan Fisika** memiliki rentang nilai yang cukup tinggi dibanding mapel lain.
+
+![Sebaran Nilai per Mata Pelajaran](output1.png)
+
+## 🧠 Analisis Singkat
+- **Matematika** memiliki rata-rata tertinggi dan variasi nilai yang besar.
+- **Bahasa Inggris** dan **Produktif** cenderung memiliki nilai yang lebih stabil.
+- Terdapat beberapa **outlier** di pelajaran Bahasa Indonesia dan Fisika (nilai rendah).
+
+## 💻 Cara Menjalankan Program
+1. Pastikan Python dan library berikut sudah terinstal:
+   ```bash
+   pip install pandas matplotlib seaborn
+   ```
+2. Jalankan file Python:
+   ```bash
+   python analisis_nilai.py
+   ```
+3. Hasil visualisasi akan muncul dalam bentuk grafik.
