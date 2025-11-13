@@ -34,6 +34,7 @@ Grafik batang berikut menunjukkan rata-rata nilai untuk setiap mata pelajaran.
 Dapat dilihat bahwa **Matematika** memiliki nilai rata-rata tertinggi.
 
 ![Rata-Rata Nilai per Mapel]
+
 <img width="630" height="470" alt="output" src="https://github.com/user-attachments/assets/c3354599-dd39-4b9d-9f4c-fd6de9748618" />
 
 
@@ -42,6 +43,7 @@ Boxplot di bawah ini memperlihatkan sebaran nilai (rentang, median, dan outlier)
 Dari grafik terlihat bahwa **Matematika dan Fisika** memiliki rentang nilai yang cukup tinggi dibanding mapel lain.
 
 ![Sebaran Nilai per Mata Pelajaran]
+
 <img width="630" height="470" alt="output1" src="https://github.com/user-attachments/assets/04827ecc-7938-4620-a9f2-9a4d7a664814" />
 
 ## 🧠 Analisis Singkat
