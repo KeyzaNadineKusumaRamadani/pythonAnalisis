@@ -1,4 +1,4 @@
-<img width="630" height="470" alt="output" src="https://github.com/user-attachments/assets/9fb97f55-eae5-4458-a310-8e0725512c03" /># 📊 Analisis Nilai Siswa per Mata Pelajaran
+📊 Analisis Nilai Siswa per Mata Pelajaran
 
 Proyek ini dibuat menggunakan **Python**, **pandas**, **matplotlib**, dan **seaborn** untuk menganalisis dan memvisualisasikan data nilai siswa dari file `nilai_siswa.csv`.
 
