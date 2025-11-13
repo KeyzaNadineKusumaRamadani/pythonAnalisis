@@ -61,3 +61,20 @@ Dari grafik terlihat bahwa **Matematika dan Fisika** memiliki rentang nilai yang
    python analisis_nilai.py
    ```
 3. Hasil visualisasi akan muncul dalam bentuk grafik.
+
+
+
+Analisis dan Pertanyaan 
+1. Mapel mana yang memiliki rata-rata nilai tertinggi? 
+Matematika
+2. Mapel mana yang memiliki nilai terendah? 
+Produktif 
+3. Bagaimana visualisasi membantu dalam memahami data? 
+Visualisasi membantu memudahkan untuk menemukan data/ nilai tertinggi dan terendah dengan mudah
+Refleksi Siswa
+1. Apa hal baru yang kamu pelajari dari kegiatan analisis dan visualisasi data?
+   Mempelajari memahami data analisis menggunakan visualisasi
+2. Kesulitan apa yang kamu alami dalam membuat grafik? 
+   kesalahan code/ eror di dalam visual studio code
+3. Menurtu kamu AI apa membantu dalam analysis sebua data?
+   iya, AI membantu dalam analisis sebuah data 
